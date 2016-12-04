@@ -1,7 +1,7 @@
 var React = require('react');
 var Clock = require('Clock');
 var CountdownForm = require('CountdownForm');
-var Controls = require('Controls')
+var Controls = require('Controls');
 
 var Countdown = React.createClass({
   getInitialState: function(){
