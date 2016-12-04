@@ -7,7 +7,7 @@ var Controls = React.createClass({
     onStatusChange: React.PropTypes.func.isRequired
   },
   onStatusChange:function(newStatus){
-    return() =>{
+    return() => {
       this.props.onStatusChange(newStatus);
     }
 
@@ -29,7 +29,7 @@ var Controls = React.createClass({
         {renderStartStopButton()}
         <button className = "button alert hollow" onClick={this.onStatusChange('stopped')}>Clear</button>
       </div>
-      )
+      ) 
   }
 
   });
